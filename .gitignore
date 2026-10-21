@@ -1,0 +1,11 @@
+**/work/
+**/__pycache__/
+*.pyc
+gemini_key.txt
+*.mp4
+*.srt
+preview.png
+still_scene*.png
+_chk*.png
+render.log
+course-video-maker.zip

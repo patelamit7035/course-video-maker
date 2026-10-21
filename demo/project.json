@@ -1,0 +1,328 @@
+{
+ "title": "VLOOKUP in 2 Seconds",
+ "module": "MODULE 2",
+ "lesson": "LESSON 4",
+ "course": "Excel Made Easy",
+ "brand": {
+  "accent": "#FFB81C",
+  "theme": "dark",
+  "watermark": "Neha's Excel Academy",
+  "course": "Excel Made Easy"
+ },
+ "voice": {
+  "mode": "gemini",
+  "voice_id": "voice_xxxx"
+ },
+ "avatar": {
+  "clips": [
+   "me1.mp4"
+  ]
+ },
+ "caption_keywords": [
+  "VLOOKUP",
+  "Excel"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "VLOOKUP in 2 Seconds",
+   "subtitle": "Find anything in a long list, instantly",
+   "avatar": "full",
+   "vo": "Namaste! Aaj hum seekhenge VLOOKUP, Excel ka sabse kaam ka formula."
+  },
+  {
+   "type": "kinetic",
+   "lines": [
+    {
+     "text": "500 STUDENTS IN A LIST",
+     "icon": "group"
+    },
+    {
+     "text": "FIND ONE FEE",
+     "style": "accent",
+     "icon": "search",
+     "cue": "ek"
+    },
+    {
+     "text": "10 MINUTES OF SCROLLING",
+     "style": "strike",
+     "cue": "scroll"
+    }
+   ],
+   "vo": "Socho aapke paas paanch sau students ki list hai, aur ek ki fees dhoondhni hai. Scroll karte karte das minute?"
+  },
+  {
+   "type": "character",
+   "head": "MEET RIYA",
+   "place": "class",
+   "board_text": "Excel",
+   "person": {
+    "name": "Riya",
+    "look": {
+     "gender": "female",
+     "outfit": "#c0397a"
+    }
+   },
+   "mood": "worried",
+   "say": "Itni lambi list mein fees kaise dhoondhu?",
+   "tags": [
+    {
+     "text": "Accounts clerk",
+     "cue": "riya"
+    }
+   ],
+   "vo": "Ye hai Riya. Uska boss roz poochta hai, is student ki fees kitni hai? Aur Riya har baar scroll karti hai."
+  },
+  {
+   "type": "whiteboard",
+   "layout": "flow",
+   "title": "How VLOOKUP thinks",
+   "items": [
+    {
+     "text": "What to find",
+     "icon": "search",
+     "cue": "kya"
+    },
+    {
+     "text": "Where to look",
+     "icon": "grid",
+     "cue": "kahan"
+    },
+    {
+     "text": "Which column",
+     "icon": "chart",
+     "cue": "kaunsa"
+    }
+   ],
+   "vo": "VLOOKUP teen sawaal poochta hai. Kya dhoondhna hai? Kahan dhoondhna hai? Aur kaunsa column wapas laana hai?"
+  },
+  {
+   "type": "whiteboard",
+   "layout": "list",
+   "title": "Remember",
+   "items": [
+    "Name in the first column",
+    "Count columns from the left",
+    "FALSE = exact match"
+   ],
+   "vo": "Teen baatein yaad rakho. Naam pehle column mein ho. Column left se gino. Aur end mein FALSE likho, matlab exact match."
+  },
+  {
+   "type": "whiteboard",
+   "layout": "mindmap",
+   "center": "VLOOKUP",
+   "items": [
+    "Fees",
+    "Marks",
+    "Phone",
+    "City"
+   ],
+   "avatar": "bubble",
+   "vo": "Isse aap kuch bhi nikaal sakte ho: fees, marks, phone number, ya city."
+  },
+  {
+   "type": "whiteboard",
+   "layout": "equation",
+   "items": [
+    "Name",
+    "List",
+    "Column",
+    "Answer"
+   ],
+   "vo": "Formula simple hai: naam, plus list, plus column, barabar answer."
+  },
+  {
+   "type": "slides",
+   "title": "The formula",
+   "bullets": [
+    {
+     "text": "=VLOOKUP(\"Riya\", A2:C500, 3, FALSE)",
+     "icon": "excel"
+    },
+    {
+     "text": "\"Riya\" = what to find",
+     "cue": "riya"
+    },
+    {
+     "text": "A2:C500 = where",
+     "cue": "list"
+    },
+    {
+     "text": "3 = which column",
+     "cue": "teesra"
+    }
+   ],
+   "vo": "Ye raha formula. Riya, matlab kya dhoondhna hai. A2 se C500, matlab list. Aur teen, matlab teesra column, fees."
+  },
+  {
+   "type": "ui",
+   "head": "TRY IT IN EXCEL",
+   "url": "excel.office.com",
+   "elements": [
+    {
+     "kind": "title",
+     "text": "students.xlsx"
+    },
+    {
+     "kind": "field",
+     "text": "Formula",
+     "value": "=VLOOKUP(\"Riya\", A2:C500, 3, FALSE)",
+     "type_at": 0.15
+    },
+    {
+     "kind": "button",
+     "text": "Enter",
+     "color": "#217346"
+    },
+    {
+     "kind": "toast",
+     "text": "Result: Rs 4,500",
+     "cue": "answer"
+    }
+   ],
+   "clicks": [
+    {
+     "i": 2,
+     "cue": "enter"
+    }
+   ],
+   "vo": "Excel mein ye formula likho, enter dabao, aur answer turant aa jayega."
+  },
+  {
+   "type": "icons",
+   "items": [
+    {
+     "icon": "clock",
+     "label": "2 seconds"
+    },
+    {
+     "icon": "check",
+     "label": "No mistakes"
+    },
+    {
+     "icon": "rupee",
+     "label": "Fees found"
+    },
+    {
+     "icon": "star",
+     "label": "Boss happy"
+    }
+   ],
+   "vo": "Do second. Koi galti nahi. Fees mil gayi. Aur boss khush."
+  },
+  {
+   "type": "chart",
+   "chart": "bar",
+   "title": "Time to find one fee",
+   "labels": [
+    "Scrolling",
+    "Ctrl + F",
+    "VLOOKUP"
+   ],
+   "values": [
+    600,
+    60,
+    2
+   ],
+   "unit": "s",
+   "highlight": 2,
+   "note": "300x faster",
+   "vo": "Scroll karne mein chhe sau second, Control F se saath second, aur VLOOKUP se sirf do second."
+  },
+  {
+   "type": "flow",
+   "steps": [
+    {
+     "title": "Click a cell",
+     "icon": "excel"
+    },
+    {
+     "title": "Type formula",
+     "icon": "pen"
+    },
+    {
+     "title": "Press Enter",
+     "icon": "check"
+    }
+   ],
+   "vo": "Teen steps: cell pe click, formula type, enter."
+  },
+  {
+   "type": "chat",
+   "name": "Boss",
+   "messages": [
+    {
+     "from": "them",
+     "text": "Riya, Kabir ki fees kitni hai?"
+    },
+    {
+     "from": "me",
+     "text": "Rs 3,800 sir",
+     "cue": "do"
+    },
+    {
+     "from": "them",
+     "text": "Itni jaldi? Great!",
+     "cue": "itni"
+    }
+   ],
+   "vo": "Ab boss poochta hai, Kabir ki fees? Riya do second mein bata deti hai. Itni jaldi? Great!"
+  },
+  {
+   "type": "compare",
+   "style": "wrong_right",
+   "left": {
+    "points": [
+     "Name not in first column",
+     "TRUE at the end"
+    ]
+   },
+   "right": {
+    "points": [
+     "Name in first column",
+     "FALSE at the end"
+    ],
+    "cue": "sahi"
+   },
+   "vo": "Galat tareeka: naam pehle column mein nahi, aur end mein TRUE. Sahi tareeka: naam pehle column mein, aur end mein FALSE."
+  },
+  {
+   "type": "quiz",
+   "question": "What does 3 mean in the formula?",
+   "options": [
+    "3 rows",
+    "3rd column",
+    "3 students",
+    "3 seconds"
+   ],
+   "answer": 1,
+   "reveal_cue": "sahi jawab",
+   "vo": "Quiz time! Formula mein teen ka matlab kya hai? Socho... Sahi jawab hai, teesra column."
+  },
+  {
+   "type": "recap",
+   "items": [
+    "VLOOKUP finds and brings back",
+    "What, where, which column",
+    "FALSE = exact match"
+   ],
+   "vo": "Recap. VLOOKUP dhoondhta hai aur laata hai. Kya, kahan, kaunsa column. Aur FALSE matlab exact match."
+  },
+  {
+   "type": "task",
+   "minutes": 10,
+   "steps": [
+    "Make a list of 10 students",
+    "Add their fees",
+    "Find one fee with VLOOKUP"
+   ],
+   "vo": "Aapka kaam: das students ki list banao, unki fees likho, aur ek ki fees VLOOKUP se nikaalo."
+  },
+  {
+   "type": "next",
+   "title": "HLOOKUP and XLOOKUP",
+   "avatar": "full",
+   "vo": "Agle video mein seekhenge HLOOKUP aur XLOOKUP. Milte hain!"
+  }
+ ]
+}
